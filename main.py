@@ -352,7 +352,7 @@ def menu():
         print("no characters")
         pin()
       if any(char.isalpha() is False and char.isnumeric() is False
-             for char in np):
+             for char in np:
         print("invalid")
         pin()
       encrypte = encrypt(np, public)
